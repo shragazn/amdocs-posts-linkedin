@@ -1,0 +1,24 @@
+{
+  "name": "amdocs-posts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ts-node -r tsconfig-paths/register src/index.ts --watch src",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "json-2-csv": "^4.1.0",
+    "nodemon": "^3.0.1",
+    "puppeteer": "^21.3.6",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "tsconfig-paths": "^4.2.0"
+  }
+}
