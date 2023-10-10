@@ -20,6 +20,7 @@ export const SELECTORS = {
   },
   profile: {
     name: ".text-heading-xlarge",
+    infoCard: ".artdeco-card.ember-view",
   },
   posts: {
     postAuthor: ".update-components-actor__container.display-flex.flex-grow-1",
@@ -36,7 +37,13 @@ export const SELECTORS = {
     },
     reactionCounter: ".social-details-social-counts__item",
   },
+  header: {
+    signInBtn:
+      '[data-tracking-control-name="public_profile_nav-header-signin"]',
+  },
 };
+
+export const userIdDelimiter = "sd_profile%3A";
 export const args = [
   "--no-sandbox",
   "--disable-setuid-sandbox",
